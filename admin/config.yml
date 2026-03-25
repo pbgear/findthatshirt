@@ -8,8 +8,8 @@ local_backend: true
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
-site_url: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME
-display_url: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME
+site_url: https://pbgear.github.io/findthatshirt
+display_url: https://pbgear.github.io/findthatshirt
 
 collections:
   - name: "posts"
