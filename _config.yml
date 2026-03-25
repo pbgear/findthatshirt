@@ -1,0 +1,28 @@
+title: Tee Picks Blog
+description: Visual, SEO-friendly affiliate t-shirt roundups.
+url: "https://YOUR_GITHUB_USERNAME.github.io"
+baseurl: ""
+lang: en-US
+timezone: America/New_York
+
+markdown: kramdown
+permalink: /:slug/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: /assets/images/placeholder-hero.svg
+
+exclude:
+  - README.md
