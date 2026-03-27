@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: pbgear/findthatshirt
+  name: git-gateway
   branch: main
-
-local_backend: true
 
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
