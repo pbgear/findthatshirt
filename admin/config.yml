@@ -1,9 +1,17 @@
+# Decap CMS — GitHub backend + external OAuth proxy (no Netlify Identity required).
+#
+# 1) Create a GitHub OAuth App: https://github.com/settings/applications/new
+#    - Homepage URL: your PROXY URL (e.g. https://your-worker.workers.dev)
+#    - Callback URL: PROXY_URL + /callback
+# 2) Deploy OAuth proxy (free tier): https://github.com/sterlingwes/decap-proxy
+# 3) Replace YOUR_OAUTH_PROXY_URL below with that PROXY URL (no trailing slash).
+
 backend:
   name: github
   repo: pbgear/findthatshirt
   branch: main
-  # Optional but often helpful for auth routing:
-  site_domain: pbgear.github.io
+  base_url: https://YOUR_OAUTH_PROXY_URL
+  auth_endpoint: /auth
 
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
