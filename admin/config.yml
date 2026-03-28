@@ -10,7 +10,7 @@ backend:
   name: github
   repo: pbgear/findthatshirt
   branch: main
-  base_url: https://YOUR_OAUTH_PROXY_URL
+  base_url: https://nameless-night-3473.yvrglutenfree.workers.dev
   auth_endpoint: /auth
 
 media_folder: "assets/images/uploads"
