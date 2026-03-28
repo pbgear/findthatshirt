@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: pbgear/findthatshirt
   branch: main
+  # Optional but often helpful for auth routing:
+  site_domain: pbgear.github.io
 
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
